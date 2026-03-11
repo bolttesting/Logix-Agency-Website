@@ -15,7 +15,10 @@ export default function Footer() {
             <span className="text-gray-500">for your brand.</span>
           </h2>
           <div className="flex items-center flex-wrap sm:!flex-nowrap gap-4">
-            <h3 className="text-3xl font-bold">Daily Mode<span className="text-[#0062a2]">*</span></h3>
+            <h3 className="text-3xl font-bold flex items-baseline">
+              <span style={{ color: '#ef7723' }}>Logix</span>
+              <span style={{ color: '#0062a3' }}> Contact</span>
+            </h3>
             <button onClick={toggleContact} className="border border-white/30 px-6 py-2 rounded-full hover:bg-white hover:text-black transition">
               START MY JOURNEY
             </button>
@@ -51,15 +54,12 @@ export default function Footer() {
 
       <div className="border-t border-white/10 pt-8 flex flex-col lg:flex-row justify-between items-center text-xs text-gray-500 gap-4">
         <div className="flex gap-4">
-          <span>© 2025 Daily Mode — All rights reserved</span>
+          <span>© 2026 Logix Contact — All rights reserved</span>
         </div>
         <div className="flex gap-4">
           <a href="#">Terms & Conditions</a>
           <a href="#">Privacy Policy</a>
           <a href="#">Cookie Settings</a>
-        </div>
-        <div className="flex items-center gap-2">
-          <span className="text-red-500">❤</span> Founded on good vibes
         </div>
       </div>
       </div>

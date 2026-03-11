@@ -1,69 +1,59 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Work() {
+  const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('/api/work')
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data.slice(0, 4));
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
   const openProject = (id) => {
     window.dispatchEvent(new CustomEvent('openProject', { detail: id }));
   };
 
-  const projects = [
-    {
-      id: 'wristler',
-      title: 'Wristler',
-      category: 'E-COMMERCE',
-      description: '+5,500 watch listings after launch',
-      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      year: '2024'
-    },
-    {
-      id: 'urban',
-      title: 'Urban Creative',
-      category: 'PLATFORMS',
-      description: 'A digital partnership',
-      image: 'https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      year: '2024'
-    },
-    {
-      id: 'techflow',
-      title: 'TechFlow',
-      category: 'AI',
-      description: 'AI-powered workflow automation',
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      year: '2024'
-    },
-    {
-      id: 'greenspace',
-      title: 'GreenSpace',
-      category: 'PLATFORMS',
-      description: 'Sustainable living marketplace',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      year: '2023'
-    }
-  ];
+  if (loading) {
+    return (
+      <section className="py-24 bg-white" id="cases">
+        <div className="container mx-auto px-6 md:px-12 max-w-7xl">
+          <div className="mb-16">
+            <h2 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">Our Work</h2>
+            <p className="text-gray-600 text-lg max-w-2xl">Loading...</p>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="py-24 bg-white" id="cases">
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
-        {/* Header */}
         <div className="mb-16">
           <h2 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">Our Work</h2>
           <p className="text-gray-600 text-lg max-w-2xl">
-            Selected projects showcasing our team's expertise
+            Selected projects showcasing our team&apos;s expertise
           </p>
         </div>
 
-        {/* Work Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {projects.map((project) => (
-            <div 
-              key={project.id} 
+            <div
+              key={project.id}
               className="group cursor-pointer"
               onClick={() => openProject(project.id)}
             >
               <div className="relative overflow-hidden rounded-lg mb-4 aspect-[4/3] bg-gray-100">
-                <img 
-                  src={project.image} 
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -83,7 +73,6 @@ export default function Work() {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="flex justify-center mt-16">
           <Link href="/work">
             <button className="border border-gray-900 px-8 py-3 rounded-full text-sm font-medium hover:bg-black hover:text-white transition-all duration-300">

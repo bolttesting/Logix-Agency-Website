@@ -79,7 +79,7 @@ export default function Hero() {
           <h1 className="hero-title text-[14vw] md:text-[12vw] xl:text-[175px] leading-[0.9] font-extrabold tracking-tighter uppercase text-black">FUTURE</h1>
         </div>
         <div className="mt-8 opacity-0 hero-btn">
-          <button onClick={toggleContact} className="border border-gray-300 px-8 py-3 rounded-full text-sm font-semibold uppercase tracking-wide hover:bg-black hover:text-white transition-all duration-300 flex items-center gap-2 group mx-auto bg-white/50 backdrop-blur-sm">
+          <button onClick={toggleContact} className="border-2 border-[#0062a3] text-[#0062a3] px-8 py-3 rounded-full text-sm font-semibold uppercase tracking-wide hover:bg-[#ef7723] hover:border-[#ef7723] hover:text-[#0062a3] transition-all duration-300 flex items-center gap-2 group mx-auto bg-white/50 backdrop-blur-sm">
             Challenge Us <span className="group-hover:rotate-90 transition-transform duration-300">↓</span>
           </button>
         </div>

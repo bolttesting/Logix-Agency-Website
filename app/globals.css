@@ -17,10 +17,11 @@
   }
 
   @media (min-width: 768px) {
-    body {
+    body:not(.admin-cursor) {
       cursor: none;
     }
   }
+
 }
 
 @layer components {
@@ -218,5 +219,61 @@
   .grid-cell {
     transition: background-color 0.3s ease, opacity 0.5s ease;
     opacity: 0;
+  }
+
+  /* Admin Dashboard */
+  .admin-layout {
+    transition: opacity 0.3s ease;
+  }
+
+  .admin-sidebar-item {
+    transition: background-color 0.25s ease, transform 0.25s ease, color 0.25s ease;
+  }
+
+  .admin-sidebar-item:hover {
+    transform: translateX(4px);
+  }
+
+  .admin-card {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+  }
+
+  .admin-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .admin-btn {
+    transition: transform 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+  }
+
+  .admin-btn:hover {
+    transform: scale(1.02);
+  }
+
+  .admin-btn:active {
+    transform: scale(0.98);
+  }
+
+  .admin-input {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .admin-input:focus {
+    box-shadow: 0 0 0 3px rgba(0, 98, 163, 0.15);
+  }
+
+  .admin-list-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .admin-list-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .admin-main {
+    scroll-behavior: smooth;
   }
 }

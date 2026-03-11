@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "slug": "ai-web-development",
+    "title": "The Future of AI in Web Development",
+    "category": "AI & AUTOMATION",
+    "excerpt": "How artificial intelligence is revolutionizing the way we build and optimize websites.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    "author": "Sarah Chen",
+    "authorRole": "CTO",
+    "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    "date": "November 28, 2024",
+    "readTime": "5 min read",
+    "content": "<p>Artificial Intelligence is no longer a futuristic concept—it's here, and it's transforming web development in ways we couldn't have imagined just a few years ago.</p><h2>The Current State of AI in Web Development</h2><p>Today's AI tools are helping developers write code faster, debug more efficiently, and create more personalized user experiences.</p><h2>Conclusion</h2><p>The future of web development is collaborative—humans and AI working together to build better, faster, and more intelligent web experiences.</p>"
+  },
+  {
+    "id": "2",
+    "slug": "scalable-ecommerce",
+    "title": "Building Scalable E-commerce Platforms",
+    "category": "E-COMMERCE",
+    "excerpt": "Best practices for creating online stores that can handle growth and scale efficiently.",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    "author": "David Park",
+    "authorRole": "Lead Developer",
+    "authorAvatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    "date": "November 25, 2024",
+    "readTime": "7 min read",
+    "content": "<p>Building an e-commerce platform that scales isn't just about handling more traffic—it's about creating a foundation that can grow with your business.</p>"
+  },
+  {
+    "id": "3",
+    "slug": "nextjs-14",
+    "title": "Next.js 14: What You Need to Know",
+    "category": "DEVELOPMENT",
+    "excerpt": "Exploring the latest features and improvements in Next.js 14 and how to leverage them.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    "author": "Marcus Johnson",
+    "authorRole": "Creative Director",
+    "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    "date": "November 20, 2024",
+    "readTime": "6 min read",
+    "content": "<p>Next.js 14 brings significant improvements to performance, developer experience, and the overall framework capabilities.</p>"
+  },
+  {
+    "id": "4",
+    "slug": "ux-trends-2025",
+    "title": "UX Design Trends for 2025",
+    "category": "DESIGN",
+    "excerpt": "The design trends that will shape digital experiences in the coming year.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    "author": "Marcus Johnson",
+    "authorRole": "Creative Director",
+    "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    "date": "November 15, 2024",
+    "readTime": "4 min read",
+    "content": "<p>As we head into 2025, several UX design trends are emerging that will define how we create digital experiences.</p>"
+  }
+]

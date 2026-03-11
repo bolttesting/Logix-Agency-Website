@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Websites & Platforms",
+    "icon": "🌐",
+    "description": "Custom websites and web applications built for performance, scalability, and user experience.",
+    "features": ["Responsive web design", "Progressive web apps (PWA)", "CMS integration", "Performance optimization", "SEO & accessibility"],
+    "tech": ["React", "Next.js", "Node.js", "Tailwind CSS"]
+  },
+  {
+    "id": "2",
+    "title": "Automation & AI",
+    "icon": "🤖",
+    "description": "Intelligent automation solutions that streamline operations and unlock new possibilities.",
+    "features": ["Process automation", "AI/ML integration", "Chatbots & virtual assistants", "Predictive analytics", "Custom AI models"],
+    "tech": ["Python", "TensorFlow", "OpenAI", "LangChain"]
+  },
+  {
+    "id": "3",
+    "title": "E-commerce Solutions",
+    "icon": "🛒",
+    "description": "Powerful online stores that convert visitors into customers and scale with your growth.",
+    "features": ["Custom webshop development", "Payment gateway integration", "Inventory management", "Multi-channel selling", "Analytics & reporting"],
+    "tech": ["Shopify", "WooCommerce", "Stripe", "Next.js"]
+  },
+  {
+    "id": "4",
+    "title": "Data & Performance",
+    "icon": "📊",
+    "description": "Data-driven insights and optimization strategies that maximize your digital ROI.",
+    "features": ["Analytics implementation", "Performance monitoring", "A/B testing", "Data visualization", "Business intelligence"],
+    "tech": ["Google Analytics", "Mixpanel", "Tableau", "Python"]
+  }
+]

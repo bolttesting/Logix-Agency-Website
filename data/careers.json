@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Senior Full-Stack Developer",
+    "location": "Roosendaal / Remote",
+    "type": "Full-time",
+    "department": "Engineering",
+    "description": "We're looking for an experienced full-stack developer to join our core team and work on cutting-edge projects."
+  },
+  {
+    "id": "2",
+    "title": "AI/ML Engineer",
+    "location": "Den Haag / Hybrid",
+    "type": "Full-time",
+    "department": "AI & Innovation",
+    "description": "Help us build the next generation of AI-powered solutions for our clients."
+  },
+  {
+    "id": "3",
+    "title": "UI/UX Designer",
+    "location": "Remote",
+    "type": "Full-time",
+    "department": "Design",
+    "description": "Create beautiful, intuitive interfaces that users love. Experience with modern design tools required."
+  },
+  {
+    "id": "4",
+    "title": "Project Manager",
+    "location": "Roosendaal",
+    "type": "Full-time",
+    "department": "Operations",
+    "description": "Lead client projects from kickoff to delivery, ensuring quality and timely execution."
+  },
+  {
+    "id": "5",
+    "title": "Frontend Developer (React/Next.js)",
+    "location": "Remote",
+    "type": "Full-time",
+    "department": "Engineering",
+    "description": "Build responsive, performant web applications using React and Next.js."
+  },
+  {
+    "id": "job-1773227598798",
+    "title": "AI Tech Expert",
+    "location": "",
+    "type": "",
+    "department": "Tech Expert",
+    "description": ""
+  }
+]

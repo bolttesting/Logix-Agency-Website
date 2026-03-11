@@ -57,9 +57,10 @@ export default function Navbar({ dark = false }) {
         <div className="container mx-auto px-6 py-5 md:px-12 max-w-7xl flex justify-between items-center">
           <div
             onClick={scrollToTop}
-            className="font-bold text-2xl tracking-tighter hover:scale-105 transition-transform cursor-pointer"
+            className="font-bold text-2xl tracking-tighter hover:scale-105 transition-transform cursor-pointer flex items-baseline"
           >
-            Daily Mode<span className="align-top text-xs">*</span>
+            <span style={{ color: '#ef7723' }}>Logix</span>
+            <span style={{ color: '#0062a3' }}> Contact</span>
           </div>
           <div className="flex items-center gap-6">
             <a
@@ -114,7 +115,7 @@ export default function Navbar({ dark = false }) {
             </a>
             <button
               onClick={toggleContact}
-              className="bg-[#0062a2] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-black hover:text-white transition-all duration-300 border border-transparent hover:border-[#0062a2] md:block hidden"
+              className="bg-[#0062a3] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#ef7723] hover:text-[#0062a3] transition-all duration-300 border border-transparent md:block hidden"
             >
               Contact
             </button>
@@ -210,7 +211,7 @@ export default function Navbar({ dark = false }) {
                 toggleContact();
                 closeMobileMenu();
               }}
-              className="bg-[#0062a2] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-black hover:text-white transition-all duration-300 border border-transparent hover:border-[#0062a2] mt-2"
+              className="bg-[#0062a3] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#ef7723] hover:text-[#0062a3] transition-all duration-300 border border-transparent mt-2"
             >
               Contact
             </button>

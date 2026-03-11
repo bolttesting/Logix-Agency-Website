@@ -1,0 +1,68 @@
+[
+  {
+    "id": "wristler",
+    "title": "Wristler",
+    "category": "E-COMMERCE",
+    "description": "+5,500 watch listings after launch",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "year": "2024",
+    "desc": "Building the future of luxury watch trading. Wristler connects buyers and sellers in a secure environment. We helped them scale to over 5,500 watch listings shortly after launch by creating a seamless, high-trust digital platform that emphasizes authenticity and ease of use.",
+    "services": ["Digital Strategy", "UX/UI Design", "Web Development", "Performance Marketing"],
+    "client": "Partnership since 2023"
+  },
+  {
+    "id": "urban",
+    "title": "Urban Creative",
+    "category": "PLATFORMS",
+    "description": "A digital partnership",
+    "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "year": "2024",
+    "desc": "A digital partnership transforming interior design. We created a platform that connects designers with clients, streamlining the creative process.",
+    "services": ["Platform Development", "UX/UI Design", "3D Visualization", "Marketplace Integration"],
+    "client": "Partnership since 2024"
+  },
+  {
+    "id": "techflow",
+    "title": "TechFlow",
+    "category": "AI",
+    "description": "AI-powered workflow automation",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "year": "2024",
+    "desc": "Revolutionizing workflow automation with AI. TechFlow uses machine learning to optimize business processes, reducing manual tasks by 70%.",
+    "services": ["AI Development", "Machine Learning", "Process Automation", "Data Analytics"],
+    "client": "Partnership since 2024"
+  },
+  {
+    "id": "greenspace",
+    "title": "GreenSpace",
+    "category": "PLATFORMS",
+    "description": "Sustainable living marketplace",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "year": "2023",
+    "desc": "Creating a sustainable living marketplace. GreenSpace connects eco-conscious consumers with sustainable products and services.",
+    "services": ["Platform Development", "Sustainability Tracking", "Community Features", "Mobile App"],
+    "client": "Partnership since 2023"
+  },
+  {
+    "id": "fitpro",
+    "title": "FitPro",
+    "category": "E-COMMERCE",
+    "description": "Premium fitness equipment store",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "year": "2023",
+    "desc": "Premium fitness equipment for serious athletes. FitPro offers high-quality gym equipment with personalized recommendations.",
+    "services": ["E-Commerce Development", "AR Integration", "Content Strategy", "Performance Optimization"],
+    "client": "Partnership since 2023"
+  },
+  {
+    "id": "mindful",
+    "title": "Mindful",
+    "category": "AI",
+    "description": "Mental wellness AI companion",
+    "image": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "year": "2023",
+    "desc": "Your AI companion for mental wellness. Mindful uses conversational AI to provide personalized mental health support.",
+    "services": ["AI Development", "Natural Language Processing", "Mobile App", "Privacy & Security"],
+    "client": "Partnership since 2023"
+  }
+]
